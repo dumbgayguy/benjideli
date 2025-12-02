@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benji's Deli & Restaurant | Milwaukee's Favorite Since 1963</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Lato:wght@400;700&family=Oswald:wght@400;500;600;700&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating Specials Banner -->
+    <div class="specials-banner">
+        <span class="ticker">✦ FRESH CORNED BEEF DAILY ✦ HAND-SLICED PASTRAMI ✦ HOMEMADE COLESLAW ✦ VIENNA BEEF HOT DOGS ✦ CATERING AVAILABLE ✦ FRESH CORNED BEEF DAILY ✦ HAND-SLICED PASTRAMI ✦ HOMEMADE COLESLAW ✦</span>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Benji's</a>
+            <ul class="nav-links">
+                <li><a href="#classics">The Classics</a></li>
+                <li><a href="#story">Our Story</a></li>
+                <li><a href="#catering">Catering</a></li>
+                <li><a href="#visit">Visit Us</a></li>
+            </ul>
+            <a href="#visit" class="nav-cta">Order Now</a>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul class="mobile-nav-links">
+            <li><a href="#classics">The Classics</a></li>
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#catering">Catering</a></li>
+            <li><a href="#visit">Visit Us</a></li>
+            <li><a href="#visit" class="mobile-cta">Order Now</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="neon-accent">OPEN</div>
+            <div class="hero-logo">
+                <img src="Benji's Logo.jpg" alt="Benji's Deli & Restaurant Logo">
+            </div>
+            <p class="hero-tagline">Milwaukee's Favorite Deli for Over 60 Years</p>
+            <div class="hero-badges">
+                <span class="badge stamp-badge">Hand Sliced</span>
+                <span class="badge stamp-badge">Vienna Beef</span>
+                <span class="badge stamp-badge">Fresh Daily</span>
+            </div>
+            <div class="hero-cta-group">
+                <a href="#classics" class="btn btn-primary">See Our Favorites</a>
+                <a href="#visit" class="btn btn-secondary">Find Us</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll for More</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </header>
+
+    <!-- Now Serving Ticker -->
+    <section class="now-serving">
+        <div class="ticket-display">
+            <span class="ticket-label">NOW SERVING</span>
+            <span class="ticket-number" id="ticketNumber">47</span>
+        </div>
+        <p class="serving-message">Join the line. It's worth the wait.</p>
+    </section>
+
+    <!-- The Classics Section -->
+    <section class="classics" id="classics">
+        <div class="section-header">
+            <span class="section-tag">What We're Known For</span>
+            <h2 class="section-title">The <span class="highlight">CLASSICS</span></h2>
+            <p class="section-subtitle">Piled high since '63</p>
+        </div>
+
+        <div class="classics-grid">
+            <!-- Classic Item 1 -->
+            <article class="classic-card featured">
+                <div class="card-image">
+                    <img src="Roast Beef.png" alt="Benji's Corned Beef Sandwich with coleslaw and pickle">
+                    <div class="card-tag">SIGNATURE</div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">The <span class="emphasis">CORNED BEEF</span></h3>
+                    <p class="card-description">Hand-sliced, piled impossibly high on fresh rye. Served with our famous coleslaw and a crisp deli pickle. The one that made us famous.</p>
+                    <div class="card-footer">
+                        <span class="pickle-rating">
+                            <span class="pickle">🥒</span>
+                            <span class="pickle">🥒</span>
+                            <span class="pickle">🥒</span>
+                            <span class="pickle">🥒</span>
+                            <span class="pickle">🥒</span>
+                        </span>
+                        <span class="card-note">Milwaukee Favorite</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Classic Item 2 -->
+            <article class="classic-card">
+                <div class="card-image placeholder-image">
+                    <div class="placeholder-content">
+                        <span class="placeholder-icon">🌭</span>
+                    </div>
+                    <div class="card-tag">AUTHENTIC</div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Vienna Beef <span class="emphasis">HOT DOG</span></h3>
+                    <p class="card-description">The real deal. Vienna Beef dog with all the Chicago-style fixings. No ketchup allowed—we're serious about this.</p>
+                    <div class="card-footer">
+                        <span class="pickle-rating">
+                            <span class="pickle">🥒</span>
+                            <span class="pickle">🥒</span>
+                            <span class="pickle">🥒</span>
+                            <span class="pickle">🥒</span>
+                            <span class="pickle dim">🥒</span>
+                        </span>
+                        <span class="card-note">Classic Chicago Style</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Classic Item 3 -->
+            <article class="classic-card">
+                <div class="card-image placeholder-image">
+                    <div class="placeholder-content">
+                        <span class="placeholder-icon">🍲</span>
+                    </div>
+                    <div class="card-tag">COMFORT</div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Matzo Ball <span class="emphasis">SOUP</span></h3>
+                    <p class="card-description">Golden broth, fluffy matzo balls the size of your fist. The cure for everything—especially Wisconsin winters.</p>
+                    <div class="card-footer">
+                        <span class="pickle-rating">
+                            <span class="pickle">🥒</span>
+                            <span class="pickle">🥒</span>
+                            <span class="pickle">🥒</span>
+                            <span class="pickle">🥒</span>
+                            <span class="pickle">🥒</span>
+                        </span>
+                        <span class="card-note">Soul Warming</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Classic Item 4 -->
+            <article class="classic-card">
+                <div class="card-image placeholder-image">
+                    <div class="placeholder-content">
+                        <span class="placeholder-icon">🥪</span>
+                    </div>
+                    <div class="card-tag">CLASSIC</div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">The <span class="emphasis">REUBEN</span></h3>
+                    <p class="card-description">Corned beef, swiss, sauerkraut, and thousand island on grilled rye. A deli classic done right.</p>
+                    <div class="card-footer">
+                        <span class="pickle-rating">
+                            <span class="pickle">🥒</span>
+                            <span class="pickle">🥒</span>
+                            <span class="pickle">🥒</span>
+                            <span class="pickle">🥒</span>
+                            <span class="pickle dim">🥒</span>
+                        </span>
+                        <span class="card-note">Deli Essential</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="classics-cta">
+            <a href="#" class="btn btn-outline">View Full Menu</a>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="story" id="story">
+        <div class="story-bg"></div>
+        <div class="story-container">
+            <div class="story-image-col">
+                <div class="polaroid main-polaroid">
+                    <img src="Chris and Mike Benji's.png" alt="Behind the counter at Benji's Deli">
+                    <span class="polaroid-caption">Behind the Counter</span>
+                </div>
+                <div class="deli-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-count="61">0</span>
+                        <span class="stat-label">Years Strong</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="2">0</span><span class="stat-suffix">M+</span>
+                        <span class="stat-label">Sandwiches Served</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="1">0</span>
+                        <span class="stat-label">Family Recipe</span>
+                    </div>
+                </div>
+            </div>
+            <div class="story-content-col">
+                <span class="section-tag">Est. 1963</span>
+                <h2 class="section-title">Our <span class="highlight">STORY</span></h2>
+                <div class="story-text">
+                    <p class="lead">It started with a meat slicer, a family recipe, and a stubborn belief that good things take time.</p>
+                    <p>When Benji opened these doors in 1963, he had one rule: <em>do it right or don't do it at all</em>. That meant slicing every sandwich by hand. Sourcing only Vienna Beef—no exceptions.</p>
+                    <p>Six decades later, not much has changed. The same recipes. The same commitment to piling it high and making it right. We've watched Milwaukee grow up around us, fed generations of families, and become part of the fabric of this city.</p>
+                    <p>Some things are worth doing the old way.</p>
+                </div>
+                <div class="story-signature">
+                    <span class="signature-text">— The Benji's Family</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catering Section -->
+    <section class="catering" id="catering">
+        <div class="section-header light">
+            <span class="section-tag">Feed the Whole Crew</span>
+            <h2 class="section-title">Catering & <span class="highlight">PLATTERS</span></h2>
+            <p class="section-subtitle">From office lunches to family gatherings</p>
+        </div>
+
+        <div class="catering-showcase">
+            <div class="catering-image">
+                <img src="Turkey Ham and Cheese Tray.png" alt="Benji's Deli catering platter with turkey, ham, and cheese">
+            </div>
+            <div class="catering-content">
+                <h3 class="catering-title">Deli Platters Done Right</h3>
+                <ul class="catering-list">
+                    <li>Classic meat & cheese trays</li>
+                    <li>Sandwich platters (feeds 10-50+)</li>
+                    <li>Fresh bread & rolls</li>
+                    <li>Homemade salads & sides</li>
+                    <li>Pickle trays (of course)</li>
+                </ul>
+                <p class="catering-note">Custom orders welcome. Give us a call and we'll make it happen.</p>
+                <a href="tel:+14145551963" class="btn btn-primary">Call to Order</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visit Section -->
+    <section class="visit" id="visit">
+        <div class="visit-container">
+            <div class="visit-info">
+                <span class="section-tag">Come Hungry</span>
+                <h2 class="section-title">Find <span class="highlight">US</span></h2>
+
+                <div class="info-blocks">
+                    <div class="info-block">
+                        <h3 class="info-label">Location</h3>
+                        <p class="info-value">Milwaukee, Wisconsin</p>
+                    </div>
+                    <div class="info-block">
+                        <h3 class="info-label">Hours</h3>
+                        <div class="hours-display">
+                            <div class="open-sign" id="openSign">
+                                <span class="open-text">OPEN</span>
+                            </div>
+                            <div class="hours-list">
+                                <p>Mon - Sat: 7am - 7pm</p>
+                                <p>Sunday: 8am - 5pm</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-block">
+                        <h3 class="info-label">Contact</h3>
+                        <p class="info-value">
+                            <a href="tel:+14145551963">(414) 555-1963</a><br>
+                            <a href="mailto:hello@benjisdeli.com">hello@benjisdeli.com</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cta-group">
+                    <a href="#" class="btn btn-primary">Order Pickup</a>
+                    <a href="#" class="btn btn-secondary">Get Directions</a>
+                </div>
+            </div>
+            <div class="visit-map">
+                <div class="map-placeholder">
+                    <div class="map-content">
+                        <span class="map-pin">📍</span>
+                        <span class="map-text">Milwaukee, WI</span>
+                        <a href="#" class="map-link">Get Directions →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-logo">
+                    <span class="neon-text small">Benji's</span>
+                    <span class="footer-tagline">Deli & Restaurant • Est. 1963</span>
+                </div>
+                <nav class="footer-nav">
+                    <a href="#classics">Menu</a>
+                    <a href="#story">Our Story</a>
+                    <a href="#catering">Catering</a>
+                    <a href="#visit">Contact</a>
+                </nav>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram">IG</a>
+                    <a href="#" aria-label="Facebook">FB</a>
+                    <a href="#" aria-label="Yelp">Y!</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Benji's Deli & Restaurant. All rights reserved.</p>
+                <p class="footer-note">Hand-sliced with love in Milwaukee since 1963.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
